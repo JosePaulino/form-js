@@ -2,9 +2,30 @@ div{
   height: 100%;
   width: 180px;
   background-color: #67a4bd;
+  font-family: 'Times New Roman', Times, serif;
 }
 
-input, label, textarea{
+label{
+  padding: 5px;     
+}
+input{
+  margin: 0 0 20px 0; 
+  border-radius: 6px;  
+  border: 1px solid #7d949c;
+}
+
+input:hover, input:focus, textarea:hover, textarea:focus{
+  box-shadow: 5px 0px 9px #616156;  
+}
+
+textarea{
+  width: 95%;  
   margin: 0 0 20px 0;
+  border: 1px solid #7d949c;
+  border-radius: 6px;
   resize: none;
+}
+
+.enviar{
+  margin: 0 0 5px 30%;
 }
