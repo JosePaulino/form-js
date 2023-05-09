@@ -1,0 +1,10 @@
+div{
+  height: 100%;
+  width: 180px;
+  background-color: #67a4bd;
+}
+
+input, label, textarea{
+  margin: 0 0 20px 0;
+  resize: none;
+}
