@@ -1,4 +1,5 @@
 function Enviar() {
+  let local = ""
   let data = ""
   let telefone = ""
   var nome = document.getElementById('nomeid')
