@@ -3,6 +3,9 @@ function Enviar() {
   let data = ""
   let telefone = ""
   var nome = document.getElementById('nomeid')
+  var nome = document.getElementById('data')
+  var nome = document.getElementById('telefone)
+  var nome = document.getElementById('local')
 
   if (nome.value != '') {
     alert(
