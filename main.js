@@ -1,4 +1,6 @@
 function Enviar() {
+  let data = ""
+  let telefone = ""
   var nome = document.getElementById('nomeid')
 
   if (nome.value != '') {
